@@ -1,6 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+module.exports = {
+  images: {
+    domains: ['gabrielsantos01.netlify.app']
+  }
 }
-
-module.exports = nextConfig
