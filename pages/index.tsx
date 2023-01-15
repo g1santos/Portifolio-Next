@@ -18,7 +18,7 @@ const About = ({endpoint} : {endpoint:any}) => {
         <motion.div 
             className="flex flex-col flex-grow px-6 pt-1" 
             variants={routerAnimation} 
-            initial="initial" 
+            initial="initial"
             animate="animate"
         >
             <h5 className="my-3 font-medium">
