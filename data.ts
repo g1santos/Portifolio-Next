@@ -131,7 +131,7 @@ export const projects:IProject[] = [
             'Temporizador que indica quantas horas falta para acabar o dia',
         image_path:'/imgs/temp.png',
         github_url: 'https://github.com/g1santos/projeto-galeria',
-        category: ['react', 'bootstrap'],
+        category: ['react'],
         key_techs: ['React', 'Webpack', 'Bootstrap', 'Jquery']
     },
     {
@@ -161,7 +161,17 @@ export const projects:IProject[] = [
             'Crud de Usuários e produtos com react e json-server para o back-end usei o Bootstrap para a criação do layout, após a criação de um produto o sistema informa a data e hora de quando foi criado o produto',
         image_path:'/imgs/crud1.png',
         github_url: 'https://github.com/g1santos/crud-react-user-products',
-        category: ['react', 'bootstrap'],
+        category: ['react'],
         key_techs: ['React', 'Axios', 'Bootstrap']
+    },
+    {
+        id: 7,
+        name: 'Todo List com VueJS',
+        description:
+            'Sistema que faz o gerenciamento de suas tarefas, tendo a possibilidade de seleciona-las edita-las e exclui-las, desenvolvido com VueJS.',
+        image_path: '/imgs/todo.png',
+        github_url: 'https://github.com/g1santos/Todo-list-with-Vue.js',
+        category: ['vue'],
+        key_techs: ['Vue', 'CSS', 'Javascript']
     }
 ]
