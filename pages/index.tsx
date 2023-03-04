@@ -22,10 +22,8 @@ const About = ({endpoint} : {endpoint:any}) => {
             animate="animate"
         >
             <h5 className="my-3 font-medium">
-                Desenvolvo aplicações tanto no Front-end como no Back-end, 
-                sou programador a 1 ano e pretendo me tornar um grande profissional FullStack
-                na área de desenvolvimento de software, estou graduando Análise e Desenvolvimento de Sistemas 
-                pela Unopar e Ciências da Computação pela Unifacs.
+                Sou desenvolvedor web a 2 anos, graduado em Análise e desenvolvimento de sistemas pela Unopar, desenvolvo aplicações
+                Front-end e Back-end e sou apaixonado por tudo que envolve tecnologia e games.
             </h5>
             <div 
                 className="flex-grow p-4 my-5 bg-gray-400 dark:bg-dark-100"

@@ -26,10 +26,9 @@ const Resume = () => {
                             Universidade Norte do Paraná (UNOPAR) Belém - PA (2021 - 2023)
                         </p>
                         <p className="my-3"> 
-                            Estou concluindo o curso de tecnólogo em 
-                            Análise e Desenvolvimento de Sistemas pela UNOPAR.
+                            Graduado em Análise e Desenvolvimento de Sistemas pela UNOPAR.
                         </p>
-                        <h5 className="my-2 text-xl font-bold">
+                        {/* <h5 className="my-2 text-xl font-bold">
                             Ciência da Computação
                         </h5>
                         <p className="font-semibold">
@@ -37,7 +36,7 @@ const Resume = () => {
                         </p>
                         <p className="my-3"> 
                             Atualmente estou cursando Bacharel em Ciência da Computação pela UNIFACS.
-                        </p>
+                        </p> */}
                     </div>     
                 </motion.div>
                 <motion.div variants={fadeInUp} initial="initial" animate="animate">
